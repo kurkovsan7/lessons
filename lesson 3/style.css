@@ -1,0 +1,47 @@
+body
+{
+    background-color: burlywood;
+}
+h2
+{
+    color: deeppink;
+}
+
+h3
+{
+    color: olive;
+}
+
+h4
+{
+    color: brown;
+}
+
+h5
+{
+    color: greenyellow;
+}
+
+h4.firstCSSclass
+{
+    color: darkorange;
+    font-family: fantasy;
+}
+
+h5.firstCSSclass
+{
+    color: midnightblue;
+    font-family: "JetBrains Mono ExtraLight";
+}
+
+p.pClass
+{
+    color: red;
+    font-family: "Berlin Sans FB" ;
+}
+
+p
+{
+    color: darkmagenta;
+    font-family: "Times New Roman";
+}
