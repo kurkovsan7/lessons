@@ -1,0 +1,80 @@
+#frame
+{
+    width: 1000px; /* ширина */
+    background-color: aqua; /* цвет фона */
+    margin: auto; /* Выравнивание по центру */
+    display: table; /* Отображение в табличной форме представление в форме таблицы) */
+    height: 100%; /* высота */
+}
+
+#header
+{
+    width:940px; /* ширина */
+    height: 100%; /* высота */
+    background-color: darkorange; /* цвет фона */
+    margin: auto; /* Выравнивание по центру */
+    margin-top: 10px; /* Отступ от верхней границы сайта */
+    padding: 20px; /* внутренний отступ */
+    text-align: center; /* Выравнивание текста по центру */
+}
+
+#footer
+{
+    display: table-footer-group;
+    width: 950px;
+    height: 50px;
+    background-color: darkgrey;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+#content
+{
+    width: 750px;
+    height: 720px;
+    background-color: yellow;
+    margin: 10px;
+    float: left;
+    text-align: center;
+}
+#sidebar
+{
+    width: 200px;
+    height: 200px;
+    background-color: yellowgreen;
+    margin: 10px;
+    float: right;
+    text-align: center;
+}
+#menu
+{
+    background: yellowgreen;
+    padding: 10px;
+    margin: 10px;
+    color: black;
+    font-size: 25px;
+    font-family: "Times New Roman";
+    text-align: left ;
+}
+#inMenu
+{
+    float: right;
+    background: yellowgreen;
+    margin: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: "Times New Roman";
+    text-align: center;
+}
+#inMenu a
+{
+    display: block;
+}
+
+img
+{
+    height: 600px;
+    width: 450px;
+    float: left;
+    margin: 10px;
+}
